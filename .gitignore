@@ -1,0 +1,17 @@
+crawler_data.db
+lab1_data/
+
+indexer
+searcher
+tokenizer
+frequency
+stemmer_test
+
+__pycache__/
+myenv/
+*.pyc
+
+.DS_Store
+
+*.bin
+*.csv

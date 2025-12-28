@@ -1,0 +1,15 @@
+db:
+  path: "crawler_data.db"
+
+logic:
+  request_delay: 0.01
+  max_docs: 32000
+  
+  seed_urls:
+    - "https://habr.com/ru/all/"
+    - "https://ru.wikipedia.org/wiki/Категория:Программное_обеспечение"
+    - "https://ru.wikipedia.org/wiki/Категория:Компьютерные_науки"
+
+  allowed_domains:
+    - "habr.com"
+    - "ru.wikipedia.org"
