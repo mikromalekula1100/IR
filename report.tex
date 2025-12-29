@@ -5,7 +5,15 @@
 \usepackage{graphicx}
 \usepackage{listings}
 \usepackage{xcolor}
-\usepackage{hyperref}
+\usepackage[unicode=true]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue,
+    citecolor=blue,
+    pdftitle={Лабораторные работы по курсу "Информационный поиск"},
+    pdfauthor={М.В.Калуцкий}
+}
 \usepackage{booktabs}
 \usepackage{longtable}
 \usepackage{amsmath}
@@ -37,7 +45,6 @@
 
 \begin{document}
 
-% Титульный лист
 \begin{titlepage}
     \centering
     \large
@@ -67,7 +74,7 @@
         \begin{tabular}{rl}
             Студент: & М.\,В.\,Калуцкий \\
             Преподаватель: & А.\,А.\,Кухтичев \\
-            Группа: & М8О-206Б \\
+            Группа: & М8О-407Б-22 \\
             Дата: & 16.12.2025 \\
             Оценка: & \underline{\hspace{3cm}} \\
             Подпись: & \underline{\hspace{3cm}} \\
@@ -79,7 +86,7 @@
     Москва, 2025
 \end{titlepage}
 
-\tableofcontents
+% \tableofcontents
 \newpage
 
 \section{Добыча корпуса документов}
